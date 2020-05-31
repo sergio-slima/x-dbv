@@ -1,0 +1,1134 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+/* ####### ARQUIVOS FONTES ######## */
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'Xtreem_2';
+	src: url("../fonts/xtreem2/Xtreem_2.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'base_02';
+	src: url("../fonts/base_02/Base02.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'Baar_Sophia';
+	src: url("../fonts/baar_sophia/baars.ttf");
+	font-size: 1em;
+}
+
+/* ####### CABEÇALHO ######## */
+header {
+	width: 100%;
+	/*height: 120px;*/
+	/*background-color: rgba(33, 140, 116,.9);*/
+	z-index: 2;
+	position: relative;
+}
+header .container {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	right: 50px;
+}
+header .container-mobile {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	right: 2px;
+}
+header .header-black,
+header .header-black-mobile {
+	background-color: #000;
+	height: 40px;
+}
+header .header-black li {
+	background-image: url("../img/clubs.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 4px;
+}
+header .header-black li.club-01 {
+	background-position: -7px 0px;
+}
+header .header-black li.club-02 {
+	background-position: -51px 0px;
+}
+header .header-black li.club-03 {
+	background-position: -99px 0px;
+}
+header .header-black li.club-04 {
+	background-position: -143px 0px;
+}
+header .header-black li.club-05 {
+	background-position: -205px 0px;
+}
+header .header-black li.club-06 {
+	background-position: -266px 0px;
+}
+header .header-black li.club-07 {
+	background-position: -318px 0px;
+}
+header .header-black li.club-08 {
+	background-position: -369px 0px;
+}
+header .header-black li.club-09 {
+	background-position: -412px 0px;
+}
+header .header-black li.club-10 {
+	background-position: -466px 0px;
+}
+header .header-black li.club-11 {
+	background-position: -513px 0px;
+}
+header .header-black li.club-12 {
+	background-position: -560px 0px;
+}
+header .header-black li.club-13 {
+	background-position: -603px 0px;
+}
+header .header-black li.club-14 {
+	background-position: -649px 0px;
+}
+header .header-black li.club-15 {
+	background-position: -696px 0px;
+}
+header .header-black li a {
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+header #logotipo-mobile {
+	display: none;
+}
+header .header-black-mobile {
+	display: none;
+}
+
+/* ####### MENU DE NAVEGAÇÃO ######## */
+#menu {
+	width: 100%;
+	margin: 0px 0px;
+	background-color: rgba(33, 140, 116,.9);
+}
+#menu .navbar {
+	height: 80px;
+	border-radius: 0;
+}
+#menu .navbar-inverse .navbar-collapse {
+	border-color: none;
+}
+.navbar-inverse {
+	background-color: rgba(33, 140, 116,.9);
+	border-color: rgba(33, 140, 116,.9);
+}
+#bs-example-navbar-collapse-1 img {
+	position: relative;
+	top: -55px;
+}
+#bs-example-navbar-collapse-1 img.efeitoimg {
+	width: 3.2em;
+	top: -20px;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: rgba(33, 140, 116,.9);
+}
+#menu li {
+	display: inline-block;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+#menu li a {
+	color: #FFF;
+    font-size: 23px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-left: 1px solid;
+    max-height: 33px;
+}
+#menu ul li a:hover {
+	background: rgba(0,0,0,.2);
+	border-radius: 4px;
+}
+#login-modal p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/* ####### BANNERS ######## */
+#banner {
+	background-image: url("../img/banner.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding-top: 300px;
+	padding-bottom: 250px;
+}
+#banner .carousel-indicators {
+	display: none;
+}
+#banner .carousel-control .glyphicon-chevron-left, 
+#banner .carousel-control .glyphicon-chevron-right, 
+#banner .carousel-control .icon-next, 
+#banner .carousel-control .icon-prev {
+	margin-top: 80px;
+	font-size: 20px;
+}
+#banner h3,
+#banner .carousel-caption a {
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+#banner-unidari {
+	width: 100%;
+	height: 410px;
+	position: relative;
+	background: url("../img/banner-unidari.jpg") no-repeat;
+	/*background-position: 0px -130px;*/
+	top: -20px;
+}
+#banner-impacto {
+	width: 100%;
+	height: 410px;
+	position: relative;
+	background: url("../img/banner-impacto.jpg") no-repeat;
+	background-position: 0px -130px;
+	top: -175px;
+}
+#banner-especialidades {
+	width: 100%;
+	height: 410px;
+	position: relative;
+	background: url("../img/banner-especialidades.jpg") no-repeat;
+	background-position: 0px -130px;
+	top: -175px;
+}
+#banner-academia {
+	width: 100%;
+	height: 410px;
+	position: relative;
+	background: url("../img/banner-academia.jpg") no-repeat;
+	background-position: 0px -130px;
+	top: -175px;
+}
+#banner-lideri {
+	width: 100%;
+	height: 410px;
+	position: relative;
+	background: url("../img/banner-lideri.jpg") no-repeat;
+	background-position: 0px -130px;
+	top: -175px;
+}
+
+/* ####### BANNERS GERAIS H1 E SMALL ######## */
+#banner h1 {
+	position: fixed;
+	text-align: left;
+	top: 370px;
+	color: #FFF;
+	font-size: 92px;
+	font-family: 'base_02';
+	transition: 1s;
+	text-shadow: #000 2px 3px 2px;
+}
+#banner-unidari h1,
+#banner-impacto h1,
+#banner-especialidades h1,
+#banner-academia h1,
+#banner-lideri h1 {
+	position: relative;
+	top: 200px;
+	color: #FFF;
+	font-size: 62px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'base_02';
+	margin-left: 50px;
+	transition: 1s;
+}
+#banner h1 small,
+#banner-unidari h1 small,
+#banner-impacto h1 small,
+#banner-especialidades h1 small,
+#banner-academia h1 small,
+#banner-lideri h1 small {
+	font-size: 30px;
+	display: block;
+	color: #FFF;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	letter-spacing: 7px;
+	word-spacing: 15px;
+	line-height: 2em;
+}
+
+/* ####### BANNERS GERAIS H1 EFEITOS ######## */
+#banner h1.efeito {
+	color: red;
+	font-size: 12em;
+}
+#banner-unidari h1.efeito {
+	color: yellow;
+	font-size: 6em;
+}
+#banner-impacto h1.efeito {
+	color: blue;
+	font-size: 10em;
+}
+#banner-especialidades h1.efeito {
+	color: red;
+	font-size: 6em;
+}
+#banner-academia h1.efeito {
+	color: blue;
+	font-size: 10em;
+}
+#banner-lideri h1.efeito {
+	color: red;
+	font-size: 8em;
+}
+
+/* ####### TITULOS COM BARRA INFERIOR ######## */
+#organograma h2,
+#unidari h2,
+#estatisticas h2,
+#contato-msg h2,
+#unidari-intro h2,
+#unidari-video h2,
+#unidari-serie h2,
+#unidari-foto h2,
+#especialidades h2,
+#galeria-xtreme h2,
+#impacto-esperanca h2,
+#especialidades-anexos h2,
+#unidari-galeria h2,
+#academia-requisitos h2,
+#academia-galeria h2,
+#academia-info h2,
+#galeria-impacto h2,
+#lideri-info h2,
+#academia-material h2,
+#unidari-musica h2,
+#unidari-musica-oficial h2,
+#login-form h2,
+#academia-materiais h2 {
+	color: #218c74;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#organograma hr,
+#unidari hr,
+#estatisticas hr,
+#eventos-outros hr,
+#contato-msg hr,
+#unidari-intro hr,
+#unidari-video hr,
+#unidari-serie hr,
+#unidari-foto hr,
+#especialidades hr,
+#galeria-xtreme hr,
+#impacto-esperanca hr,
+#especialidades-anexos hr,
+#unidari-galeria hr,
+#academia-requisitos hr,
+#academia-galeria hr,
+#academia-info hr,
+#galeria-impacto hr,
+#lideri-info hr,
+#academia-material hr,
+#unidari-musica hr,
+#unidari-musica-oficial hr,
+#login-form hr,
+#academia-materiais hr {
+	border: #cd6133 solid 4px;
+	width: 200px;
+	margin: 0 auto;
+}
+#eventos-outros h2 {
+	color: #218c74;
+	font-family: 'OpenSans-Light';
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*####### INDEX EVENTOS CAROUSEL SLICK #######*/
+#eventos .eventos-carousel img {
+  max-width: 100%;
+  height: auto;
+}
+#eventos .eventos-carousel img {
+	padding: 10px;
+}
+#eventos .eventos-carousel {
+	margin-top: 20px;
+}
+#eventos .eventos-carousel a {
+	text-decoration: none;
+}
+#eventos .eventos-carousel a img:hover {
+	text-decoration: none;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+#eventos .eventos-carousel h3 {
+	color: #218c74;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#eventos .eventos-carousel time {
+	color: #33d9b2;
+	font-size: 18px;
+	font-family: 'OpenSans';
+}
+
+/* ####### INDEX UNIDARI ######## */
+
+.tree-header{width:100%;height:40px;text-align:middle}
+.tree-container{min-height:350px;position:relative;}
+text{font-family:"Helvetica Neue",Helvetica,sans-serif}
+.name{font-weight:700}
+.about{fill:#777;font-size:smaller}
+.link{fill:none;stroke:#000;shape-rendering:crispEdges}
+.dogtag{border:1px solid rgba(51,103,221,0.75);border:1px solid rgba(50,50,50,0.75);padding:0;margin:0;position:absolute;background:#eee;overflow:hidden;float:left;z-index:1}
+.dogtag.boy{background:#F8F8FE}
+.dogtag.girl{background:#FFF7FD}
+.child-link{top:0;left:0;background-color:#add8e6;position:absolute}
+.dogtag:hover{box-shadow:0 0 8px;background:#BACBF6;background:#DDD;opacity:70%}
+.dogtag a{display:table-cell;vertical-align:middle;text-align:center;z-index:1}
+.dogtag img{z-index:1}
+.dogtag p{float:middle;font-size:20px;width:100%;bottom:-10px;position:absolute;color:#FFF5EE;font-family:Arial;background-color:rgba(62,72,100,0.9);line-height:20px;max-height:20px;text-align:left}
+.dogtag span.year,.dogtag span.gender{font-size:12px;line-height:15px;max-height:15px;position:absolute;top:0;color:#FFF5EE;font-family:Arial;background-color:rgba(62,72,100,0.9);letter-spacing:.15em}
+.dogtag span.year{float:right;right:0;text-align:right}
+.dogtag span.gender{float:left;left:0;text-align:left}
+.dogtag a:hover p{max-height:48px}
+.tree-chart{position:relative;top:12px;bottom:0;left:0;right:0}
+.link{position:absolute}
+.father-branch{position:absolute;z-index:0}
+.mother-branch{position:absolute;z-index:0}
+.first{position:absolute;left:0;top:0;bottom:0;width:50%}
+.second{position:absolute;right:0;top:0;bottom:0;width:50%}
+.father-branch .first{border-bottom:3px solid #FFF;/*border-right:1px solid #000*/}
+.father-branch .second{border-top:3px solid #FFF;border-left:3px solid #FFF}
+.mother-branch .first{border-top:3px solid #FFF;border-right:3px solid #FFF}
+.mother-branch .second{border-bottom:3px solid #FFF;/*border-right:3px solid #FFF*/}
+
+#organograma .scroll {
+  background-color: #222f3e;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/*#endregion*/
+
+#organograma {
+	background-color: #222f3e;
+}
+#organograma .container {
+    height: 530px;
+}
+#unidari {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+}
+#unidari img {
+	width: 80%;
+	height: 80%;
+	padding: 10px;
+}
+.rotate:hover {
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+#unidari p {
+	color: #FDE092;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 55px;
+	margin-top: 36px;
+}
+#unidari p small {
+	color: #AAA;
+	font-size: 24px;
+	display: block;
+}
+#unidari ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: bold;
+}
+#unidari li {
+    /*background: url(bullet.gif) no-repeat 0 50%;*/
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: 'OpenSans-Light';
+    color: #343D64;
+    padding: 5px;
+}
+#unidari li:hover {
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#unidari .btn-unidari {
+	height: 17em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #343D64;
+}
+#unidari .button {
+  background-color: #30365A;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 30px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.send {
+  background: #30365A;
+  color: white;
+  border: 1px solid #45981B;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  transition: padding 500ms ease-in-out;
+  box-shadow: 0 0 0 0 rgba(69, 152, 27, 0.5);
+}
+.send.is-loading {
+  animation: pulse 1.5s infinite;
+}
+.is-loading span {
+  display: block;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(.9);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(69, 152, 27, 0);
+  }
+  100% {
+    transform: scale(.9);
+    box-shadow: 0 0 0 0 rgba(69, 152, 27, 0);
+  }
+}
+/*@-webkit-keyframes glowing {
+  0% { background-color: #35b084; -webkit-box-shadow: 0 0 3px #35b084; }
+  50% { background-color: #343D64; -webkit-box-shadow: 0 0 3px #343D64; }
+  100% { background-color: #35b084; -webkit-box-shadow: 0 0 3px #35b084; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #35b084; -moz-box-shadow: 0 0 3px #35b084; }
+  50% { background-color: #343D64; -moz-box-shadow: 0 0 3px #343D64; }
+  100% { background-color: #35b084; -moz-box-shadow: 0 0 3px #35b084; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #35b084; box-shadow: 0 0 3px #35b084; }
+  50% { background-color: #343D64; box-shadow: 0 0 3px #343D64; }
+  100% { background-color: #35b084; box-shadow: 0 0 3px #35b084; }
+}
+
+@keyframes glowing {
+  0% { background-color: #35b084; box-shadow: 0 0 3px #35b084; }
+  50% { background-color: #343D64; box-shadow: 0 0 3px #343D64; }
+  100% { background-color: #35b084; box-shadow: 0 0 3px #35b084; }
+}
+
+#unidari .button {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}*/
+
+/* ####### INDEX ESTATISTICAS ######## */
+#estatisticas {
+	background-color: #00796B;
+/*	width: 100%;
+	height: 200px;*/
+	text-align: center;
+	padding: 50px 10px 70px 10px;
+	position: relative;
+}
+#estatisticas p {
+	color: #FDE092;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 55px;
+	margin-top: 36px;
+}
+#estatisticas p small {
+	color: #AAA;
+	font-size: 24px;
+	display: block;
+
+}
+
+/* ####### INDEX ESPECIALIDADES ######## */
+#especialidades {
+	background-image: url("../img/especialidades.jpeg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#especialidades p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #fff;
+	font-size: 25px;
+	text-shadow: #000 2px 3px 2px;
+}
+#especialidades .btn {
+	padding: 10px;
+}
+#especialidades .btn:hover {
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+#especialidades img {
+	width: 50%;
+	position: relative;
+	margin-top: 40px;
+}
+#especialidades .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+/* ####### INDEX GALERIA XTREME ######## */
+#galeria-xtreme {
+	text-align: center;
+	margin-top: 120px;
+}
+#galeria-xtreme .item img {
+	width: 100%;
+	height: 500px;
+}
+#galeria-xtreme .item h5 {
+	background-color: rgba(30, 39, 46, .8);
+	font-size: 30px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: red;
+	font-weight: bold;
+	text-shadow: 0.03em 0.05em #FFF;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+#galeria-xtreme .item p {
+	background-color: rgba(30, 39, 46, .8);
+	font-size: 20px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0.2em red;
+	margin: 0 0 0px;
+}
+#galeria-xtreme .carousel-indicators {
+    display: none;
+}
+#galeria-xtreme .carousel-caption {
+	padding-bottom: 0;
+}
+.btn-group-sm>.btn, .btn-sm {
+    font-size: 15px;
+
+}
+
+/* ####### FORMULARIO DE CONTATO ######## */
+#formulario-info {
+	width: 100%;
+	margin-top: 100px;
+	background-color: #00796B;
+	border: 3px solid #00796B;
+	border-radius: 10px;
+}
+#formulario-info h3 {
+	text-align: center;
+	font-size: 40px;
+}
+#formulario-info h3,
+#formulario-info li {
+	color: #FFF
+}
+#formulario-dados {
+	background-color: #FFF;
+	padding: 25px 20px 2px;
+	border-radius: 10px;
+}
+#formulario-dados .btn {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #00796B;
+	border-color: #00796B;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+#formulario-dados .btn:hover {
+	color: #FFF;
+	background-color: #00796B;
+}
+#formulario-dados .g-recaptcha {
+	width: 302px;
+	margin: auto;
+}
+#exampleInputFile {
+	margin-bottom: 10px;
+}
+
+/* ####### BOTÃO TOPO DA PAGINA ######## */
+.scrollToTop {
+	position: fixed;
+	top: 500px;
+	right: 40px;
+	display: none;
+	font-size: 60px;
+	color: red;
+}
+
+/* ####### EVENTOS-UNIDARI SERIE  ######## */
+#unidari-serie {
+	background-color: #30365A;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#unidari-serie h3 {
+	color: #ff9f1c; 
+	font-size: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+#unidari-serie h4 {
+	font-size: 20px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: #ff9f1c;
+	text-align: center;
+}
+#unidari-serie video {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+/* ####### EVENTOS-UNIDARI GALERIA  ######## */
+#unidari-galeria .galeria {
+	width: 100%;
+	padding: 50px;
+}
+#unidari-galeria .carousel-unidari img {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+#unidari-galeria .carousel-unidari {
+	margin-top: 20px;
+}
+
+/* ####### GERAL - GALERIA DE FOTOS MIN ######## */	
+#unidari-foto .min {
+	width: 200px;
+	padding: 10px;
+	position: relative;
+}
+#academia-requisitos .min {
+	width: 400px;
+	padding: 10px;
+	position: relative;
+}
+#unidari-foto .min:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: 0.5;
+}
+#academia-requisitos .min:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: 1;
+}
+#unidari-foto .min:hover input,
+#academia-requisitos .min:hover input {
+	display: block;
+}
+#unidari-foto .lbox,
+#academia-requisitos .lbox {
+	visibility: hidden;
+	opacity: 0;
+	display: none;				
+}
+#unidari-foto .lbox:target {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: rgba(10,10,10,.7);
+	position: fixed;
+	z-index: 5;
+}
+#unidari-foto .lbox-img {
+	margin: 50px 190px;				
+}
+#unidari-foto .lbox-img .btn,
+#academia-requisitos .lbox-img .btn {
+	color: #FFF;
+	font-family: 'Arial';
+	text-decoration: none;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+}
+#unidari-foto .lbox-img img{
+	opacity: 0;
+}
+#unidari-foto .lbox:target .lbox-img img {
+	opacity: 1;
+	transition: opacity .4s linear;
+}
+#unidari-foto #prev,
+#academia-requisitos #prev {
+	color: red;
+	left: 5%;
+	top: 45%;
+}
+#unidari-foto #next,
+#academia-requisitos #next {
+	color: red;
+	right: 5%;
+	top: 45%;
+}
+#unidari-foto #close,
+#academia-requisitos #close {
+	color: red;
+	top: 0;
+	right: 5%
+}
+
+/* ####### EVENTOS - UNIDARI  ######## */
+#unidari-intro {
+	position: relative;
+	top: -90px;
+}
+#unidari-intro img {
+	width: 100%;
+	position: absolute;
+	opacity: .15;
+	text-align: center;
+	top: -85px;
+}
+#unidari-musica {
+	width: 100%;
+	background-image: url("../img/banner-unidari-musica.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	z-index: -1;
+}
+#unidari-musica a {
+	width: 300px;
+	margin: 10px;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#unidari-musica a:hover {
+	text-decoration: none;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+#unidari-musica span {
+	font-weight: bold;
+	color: red;
+	text-decoration: underline;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 0.03em 0.05em #000;
+}
+#unidari-musica video {
+	width: 500px;
+}
+#unidari-video .clips {
+	border: 5px solid #30365A;
+  	border-radius: 5px;
+}
+#unidari-video video {
+	width: 50%;
+	height: 300px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#unidari-video li {
+	color: #30365A;
+	font-family: 'OpenSans-Light';
+	font-size: 16px;
+	font-weight: bold;
+}
+#unidari-video .nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #30365A;
+}
+#unidari-video .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: #30365A;
+}
+#unidari-video .todos a, #unidari-video .todos img {
+	width: 20%;
+	background-color: #30365A;
+	border: none;
+}
+#unidari-video span {
+	font-size: 15px;
+	font-weight: bold;
+}
+#unidari-video .clips hr {
+	border: #30365A solid 2px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* ####### IMPACTO ESPERANCA - CONTEUDO ######## */
+#impacto-esperanca .img-impacto {
+	padding: 5px;
+}
+#impacto-esperanca .titulo-col {
+	background-color: #68B4B4;
+	text-align: center;
+}
+#impacto-esperanca .titulo-col p {
+	font-weight: bold;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+}
+#impacto-esperanca .container {
+	width: 100%;
+}
+#galeria-impacto .item img {
+	width: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	height: 450px;
+}
+#galeria-impacto .carousel-indicators {
+    display: none;
+}
+
+/* ####### ACADEMIA DE LIDERES - GALERIA ######## */
+#academia-materiais {
+	position: relative;
+	background-color: #00796B;
+	width: 100%;
+/*	height: 200px;*/
+	/*text-align: center;*/
+	padding: 5px;
+}
+#academia-materiais p {
+	color: #FEED01;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Light';
+	font-size: 16px;
+	margin-top: 10px;
+}
+#academia-materiais a img {
+	width: 45px;
+	margin-top: 10px;	
+}
+#academia-galeria .item img {
+	width: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	height: 450px;
+}
+#academia-galeria .carousel-indicators {
+    display: none;
+}
+#academia-info {
+	position: relative;
+	top: -100px;
+}
+#academia-info img {
+	width: 100%;
+}
+#academia-info p {
+	font-size: 18px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+/* ####### EVENTOS - LIDERI ######## */
+#lideri-info {
+	position: relative;
+	top: -90px;
+}
+
+/* ####### ESPECIALIDADES ######## */
+#especialidades-anexos {
+	text-align: center;
+	margin-top: -100px;
+}
+#especialidades-anexos img {
+	width: 100%;
+	height: 100%;
+}
+#especialidades-anexos .card {
+	width: 30rem;
+	border-color: #218c74;
+	border-style: solid;
+	border-width: medium;
+	padding: 15px;
+	border-radius: 20px;
+}
+#especialidades-anexos .card-title {
+	font-size: 2em;
+	color: #218c74;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+/* ####### RODAPÉ ######## */
+footer {
+	margin-top: 100px;
+}
+footer .row {
+	width: 101%;
+}
+footer .row p {
+	line-height: 69px;
+}
+footer .row-cinza-claro {
+	height: 200px;
+	background-color: #171F26;
+}
+footer .row-cinza-escuro {
+	height: 80px;
+	background-color: #11171D;
+	border-top: #242D37 1px solid;
+}
+footer .pull-left {
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #666;
+}
+footer .text-roxo {
+	font-family: 'OpenSans';
+	font-size: 12px;
+	font-weight: bold;
+	color: #00796B;
+}
+footer .logotipo {
+	margin-top: 35px;
+}
+footer .col-link,
+footer .col-contato,
+footer .col-restrita {
+	margin-top: 10px;
+}
+footer .row-cols h4 {
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols h5 {
+	font-family: Arial;
+	font-size: 18px;
+	color: #FDE092;
+	height: 5px;
+	padding: 10px;
+}
+footer .col-link a {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 20px;
+	height: 10px;
+}
+footer .col-link .fa {
+	margin: 0 6px;
+}
+footer .col-contato address {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .col-contato i {
+	color: #9B9B9B;
+	font-size: 20px;
+}
+footer .list-socials {
+	margin-top: 4px;
+}
+footer .list-socials li {
+	display: inline-block;
+	margin-top: -30px;
+}
+footer .list-socials a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 7px auto;
+}
+
+/* ####### SETAS DO CAROUSEL DE EVENTOS ######## */
+#btn-news-prev, #btn-news-next {
+	display: none;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width:device-width, initial-scale=1">
+		<title>XDbv</title>
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/plyr/dist/plyr.css">
+		<link rel="stylesheet" href="lib/owl.carousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="lib/owl.carousel/dist/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/xdbv.css">
+		<link rel="stylesheet" href="css/xdbv-mobile.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<img id="logotipo" src="img/XDbv-logo.png" alt="Logotipo">
+			</div>			
+			<div class="header-black">
+				<div class="container">
+					<ul class="pull-right">
+						<li class="club-01"><a href="#"></a></li>
+						<li class="club-02"><a href="#"></a></li>
+						<li class="club-03"><a href="#"></a></li>
+						<li class="club-04"><a href="#"></a></li>
+						<li class="club-05"><a href="#"></a></li>
+						<li class="club-06"><a href="#"></a></li>
+						<li class="club-07"><a href="#"></a></li>
+						<li class="club-08"><a href="#"></a></li>
+						<li class="club-09"><a href="#"></a></li>
+						<li class="club-10"><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">					
+					<nav id="menu" class="pull-right">	
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="videos.html">Clubes</a></li>
+							<li><a href="#">Notícias</a></li>
+							<li><a href="#">Especialidades</a></li>
+							<li class="search">
+								<div class="input-group">
+								  <input type="search" placeholder="busca" id="input-busca">
+								  <span class="input-group-btn">
+								    <button type="button"><i class="fa fa-search"></i></button>
+								  </span>
+								</div>
+							</li>
+						</ul>					
+					</nav>
+				</div>				
+			</div>			
+		</header>
+		<section>
+			<div id="sua-opiniao">
+				<div class="container">
+					<div class="row text-center">
+						<h2>Vídeo</h2>
+						<hr>
+					</div>
+					<div class="row">
+						<div class="player">
+							<video src="mp4/DSA2019.mp4" controls poster="img/dsafogos.jpg">
+								<track kind="captions" label="Português (Brasil)" src="vtt/legendas.vtt" srclang="pt-br" default>
+							</video>
+						</div>
+						<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+						<button type="button" id="btn-play-pause" class="btn btn-success">PLAY</button>
+					</div>
+				</div>
+			</div>
+			<div id="news" class="container" style="top:0">
+				<div class="row text-center">
+					<h2>Todos os Vídeos</h2>
+					<hr>
+				</div>
+				 <div class="row thumbnails owl-carousel owl-theme"> <!-- owl-carousel owl-theme -->
+					<div class="item" data-video="DSA2019">
+						<div class="item-inner">
+							<img src="img/dsafogos.jpg" alt="Noticia">
+							<h3 class="text-center">Reportagem do Campori</h3>
+						</div>
+					</div>		
+					<div class="item" data-video="Reportagem">
+						<div class="item-inner">
+							<img src="img/prdudu.jpg" alt="Noticia">
+							<h3 class="text-center">Campori Imperdivel</h3>
+						</div>
+					</div>
+					<div class="item" data-video="DSA2019">
+						<div class="item-inner">
+							<img src="img/dsafogos.jpg" alt="Noticia">
+							<h3 class="text-center">Reportagem do Campori</h3>
+						</div>
+					</div>		
+					<div class="item" data-video="Reportagem">
+						<div class="item-inner">
+							<img src="img/prdudu.jpg" alt="Noticia">
+							<h3 class="text-center">Campori Imperdivel</h3>
+						</div>
+					</div>
+					<div class="item" data-video="DSA2019">
+						<div class="item-inner">
+							<img src="img/dsafogos.jpg" alt="Noticia">
+							<h3 class="text-center">Reportagem do Campori</h3>
+						</div>
+					</div>		
+					<div class="item" data-video="Reportagem">
+						<div class="item-inner">
+							<img src="img/prdudu.jpg" alt="Noticia">
+							<h3 class="text-center">Campori Imperdivel</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="row row-cinza-claro">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<img class="logotipo text-center" src="img/XDbv-logo.png" alt="Logotipo">			
+						</div>
+						<div class="col-md-10">
+							<div class="row row-cols">
+								<div class="col-md-4 col-melhores-clubes">
+									<h4>Melhores Clubes</h4>
+									<ul class="list-unstyled">
+										<li>
+											<h5>Guerreiros de Cristo</h5>
+											<time>Março 30, 1980</time>
+										</li>
+										<li>
+											<h5>Heróis da Fé</h5>
+											<time>Janeiro 20, 2000</time>
+										</li>
+										<li>
+											<h5>Exército de Cristo</h5>
+											<time>Março 10, 1990</time>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-4 col-link">
+									<h4>Links</h4>
+									<ul class="list-unstyled">
+										<li><a href="#"><i class="fa fa-angle-right">Notícias</i></a></li>
+										<li><a href="#"><i class="fa fa-angle-right">Estatísticas</i></a></li>
+										<li><a href="#"><i class="fa fa-angle-right">Sua Opinião</i></a></li>
+									</ul>
+								</div>
+								<div class="col-md-4 col-contato">
+									<h4>Contato</h4>
+									<address>
+										<i class="fa fa-map-marker"> 5ª Região, Açailândia - MA</i>
+									</address>
+									<p><a href="tel:991418730"><i class="fa fa-phone"></i> Cel: 99141-8730</a></p>
+									<ul class="list-unstyled list-socials">
+										<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+									</ul>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-cinza-escuro">
+				<div class="container">
+					<p class="pull-left">Copyright Xtreme Desbravador 2019. All rights public.</p>
+					<p class="pull-right text-roxo">Created by SERGIO in lider</p>
+				</div>
+			</div>
+		</footer>
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/plyr/dist/plyr.js"></script>
+		<script src="lib/owl.carousel/dist/owl.carousel.min.js"></script>
+		<!-- <script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script> -->
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/efeitos.js"></script>
+		<script>
+			(function(d, p){
+				var a = new XMLHttpRequest(),
+					b = d.body;
+				a.open("GET", p, true);
+				a.send();
+				a.onload = function(){
+					var c = d.createElement("div");
+					c.style.display = "none";
+					c.innerHTML = a.responsiveText;
+					b.insertBefore(c, b.childNodes[0]);
+				}
+			})(document, "lib/plyr/dist/sprite.svg");
+		</script>
+		<script>
+			$(function(){
+				$(".thumbnails .item").on("click", function(){
+					$("video").attr({
+						"src":"mp4/"+$(this).data('video')+".mp4",
+						"poster":"img/"+$(this).data('video')+".jpg"
+					});
+				});
+				$("#volume").on("mousemove", function(){
+					$("video")[0].volume = parseFloat($(this).val());
+				});
+				$("#btn-play-pause").on("click", function(){
+					var video = $("video")[0];
+					if ($(this).hasClass("btn-success")){
+						$(this).text("STOP");
+						video.play();
+					} else {
+						$(this).text("PLAY");
+						video.pause();
+					};
+					$(this).toggleClass("btn-success btn-danger");
+				});
+				plyr.setup();
+			});
+		</script>
+	</body>
+</html>

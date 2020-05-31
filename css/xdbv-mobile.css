@@ -1,0 +1,484 @@
+/*Tamanho padrão para tablets*/
+/*@media only screen and (max-width: 768px) {
+	header ol, ul {
+    	margin-top: 28px;
+    	margin-bottom: 10px;
+	}
+	.header-black ul {
+		display: none;
+	}
+	#menu li.search input {
+		display: none;
+	}
+	#menu li.search button i {
+		display: none;
+	}
+	#menu li a {
+	    color: #FFF;
+	    font-size: 23px;
+	    padding: 5px 20px;
+	    text-decoration: none;
+	}
+	#btn-search {
+		color: #fff;
+		font-size: 22px;
+		position: absolute;
+		top: 4px;
+		background: none;
+		border: none;
+		display: block;
+		z-index: 5;
+	}
+	#btn-search {
+		right: 4px;
+	}
+	#btn-news-prev, #btn-news-next {
+		background: none;
+		border: none;
+		color: #000;
+		font-size: 48px;
+		display: block;
+		position: absolute;
+		top: 170px;
+		z-index: 7;
+		outline: 0;
+	}
+	#btn-news-prev {
+		left: 0px;
+	}
+	#btn-news-next {
+		right: 0px;
+	}
+}*/					
+/*Tamanho padrão para SmartPhone 520px */
+@media only screen and (max-width: 768px) {
+	html, body {
+		height: 100%;
+		width: 100%;
+		overflow-x: hidden;
+	}
+	header #logotipo-mobile {	
+		display: block;
+		position: absolute;
+		top: 0;
+		z-index: 3;
+		width: 50px;
+	}
+
+	/* ######### CABEÇALHO MOBILE ######### */
+	#menu {
+		width: 100%;
+	}
+	.header-black {
+		top: 0;
+	}
+	.header-black ul {
+		display: none;
+	}
+	header .header-black-mobile {
+	display: block;
+}
+
+	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    	background-color: rgba(33, 140, 116,.9);
+	}
+	.navbar-inverse .navbar-toggle {
+    	border-color: rgba(33, 140, 116,.9);
+	}	
+
+	/* ######### BANNER MOBILE ######### */
+	#banner {
+		height: 317px;
+		background-size: cover;
+		background-position: center top;
+		/*background-position: 0;*/
+		text-align: center;
+		position: relative;
+		top: -182px;
+	}
+	#banner .carousel-control .glyphicon-chevron-left, 
+	#banner .carousel-control .glyphicon-chevron-right, 
+	#banner .carousel-control .icon-next, 
+	#banner .carousel-control .icon-prev {
+		margin-top: 0px;
+		font-size: 10px;
+	}
+	#banner-unidari,
+	#banner-impacto,
+	#banner-especialidades,
+	#banner-academia,
+	#banner-lideri {
+		height: 317px;
+		background-size: cover;
+		background-position: 0;
+		text-align: center;
+	}
+	#banner h1 {
+		position: relative;
+		top: 40px;
+		text-align: center;
+		left: 0px;
+		color: #FFF;
+		font-size: 48px;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+		font-family: 'base_02';
+		margin-left: 0px;
+	}
+	#banner-unidari h1,
+	#banner-impacto h1,
+	#banner-especialidades h1,
+	#banner-academia h1,
+	#banner-lideri h1 {
+		top: 180px;
+		font-size: 48px;
+		margin-left: 0;
+	}
+	#banner h1 small,
+	#banner-unidari h1 small,
+	#banner-impacto h1 small,
+	#banner-especialidades h1 small,
+	#banner-academia h1 small,
+	#banner-lideri h1 small {
+		font-size: 22px;
+	}
+
+	#organograma {
+		margin-top: -290px;
+	}
+
+	/* ######### TITULOS MOBILE ######### */
+	#unidari h2,
+	#estatisticas h2,
+	#especialidades h2,
+	#galeria-xtreme h2,
+	#academia-requisitos h2,
+	#academia-galeria h2,
+	#academia-info h2,
+	#galeria-impacto h2,
+	#lideri-info h2,
+	#login-form {
+		font-size: 32px;
+	}
+	#organograma h2,
+	#eventos-outros h2,
+	#unidari-video h2,
+	#unidari-serie h2,
+	#unidari-galeria h2,
+	#unidari-foto h2,
+	#academia-material h2,
+	#unidari-musica h2,
+	#unidari-musica-oficial h2,
+	#academia-materiais h2 {
+		font-size: 25px;
+	}	
+	#unidari hr,
+	#organograma hr,
+	#estatisticas hr,
+	#eventos-outros hr,
+	#especialidades hr,
+	#galeria-xtreme hr,
+	#unidari-enquete hr,
+	#academia-requisitos hr,
+	#academia-galeria hr,
+	#academia-info hr,
+	#galeria-impacto hr,
+	#lideri-info hr,
+	#academia-material hr,
+	#unidari-musica hr,
+	#unidari-serie hr,
+	#unidari-galeria hr,
+	#unidari-musica-oficial hr,
+	#login-form hr,
+	#academia-materiais hr {
+		border-width: 4px;
+	}
+
+	/* ######### CAROUSEL EVENTOS MOBILE ######### */
+	.owl-carousel .owl-wrapper-outer {
+		margin-left: 15px;
+	}
+	.thumbnails {
+		text-align: center;
+	}
+	#eventos .thumbnails .item-inner img {
+		width: 80%;
+	}
+	#btn-news-prev, 
+	#btn-news-next {
+		background: none;
+		border: none;
+		color: #000;
+		font-size: 48px;
+		display: block;
+		position: absolute;
+		top: 170px;
+		z-index: 7;
+		outline: 0;
+	}
+	#btn-news-next {
+		right: 1px;
+	}
+
+	/* ######### GALERIA XTREME MOBILE ######### */
+	#galeria-xtreme .item h5 {
+		font-size: 15px;
+	}
+	#galeria-xtreme p {
+		display: none;
+	}
+	#galeria-xtreme .item img {
+		width: 100%;
+		height: 200px;
+	}
+	#galeria-xtreme .carousel-caption {
+		padding-bottom: 0;
+	}
+	#galeria-xtreme .carousel-indicators,
+	#academia-galeria .carousel-indicators,
+	#galeria-impacto .carousel-indicators {
+    	display: none;
+	}
+
+	/* ####### FORMULARIO DE CONTATO ######## */
+	#formulario-dados .btn {
+		font-size: 15px;
+		color: #FFF;
+		background-color: #00796B;
+	}
+
+	/* ####### ENQUETE UNIDARI ######## */
+	#unidari-enquete h3 {
+		font-size: 20px;
+	}
+
+	#unidari-musica video {
+		width: 300px;
+	}
+	#unidari-video .todos img {
+		width: 30%;
+		background-color: #30365A;
+		border: none;
+	}
+	#unidari-video .todos a {
+		width: 60%;
+		height: 70px;
+		background-color: #30365A;
+		border: none;
+	}
+
+	/* ######### GALERIA UNIDARI MOBILE ######### */
+	#unidari-foto .lbox,
+	#academia-requisitos .lbox {
+		visibility: hidden;
+		opacity: 0;
+		display: none;				
+	}
+	#unidari-foto .lbox img,
+	#academia-requisitos .lbox img {
+		width: 100%;
+		height: 100%;
+
+	}
+	#unidari-foto .lbox:target,
+	#academia-requisitos .lbox:target {
+		display: block;
+		opacity: 1;
+		visibility: visible;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0px;
+		background: rgba(10,10,10,.7);
+		position: fixed;
+		z-index: 5;
+	}
+	#unidari-foto .lbox-img,
+	#academia-requisitos .lbox-img {
+		margin: 0;				
+	}
+
+	/* ######### ACADEMIA DE LIDERES - GALERIA ######### */
+	#academia-galeria .item img,
+	#galeria-impacto .item img {
+		width: 100%;
+		height: 200px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#academia-requisitos .min {
+		width: 300px;
+		padding: 10px;
+		position: relative;
+	}
+	#unidari-video video {
+		width: 80%;
+		height: 200px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#unidari-serie h3 {
+		color: #ff9f1c; 
+		font-size: 30px;
+		font-family: 'ZCOOL KuaiLe', cursive;
+	}
+	#unidari-serie h4 {
+		font-size: 15px;
+		font-family: 'ZCOOL KuaiLe', cursive;
+		color: #ff9f1c;
+		text-align: center;
+	}
+
+	/* ######### RODAPÉ MOBILE ######### */
+	footer {
+		margin-top: 60px;
+	}
+	.copyright-mobile p {
+		font-size: 10px;
+		line-height: 0;
+	}
+	.copyright-mobile .pull-left {
+		float: inherit!important;
+	}
+	footer .row p {
+		text-align: center;
+		line-height: 20px;
+	}
+	footer .row p:first-child {
+		margin-top: 10px;
+	}
+	footer .text-roxo {
+		margin-right: 10px;
+	}
+	footer .row {
+		margin: 0;
+	}
+	footer .col-md-10 {
+		padding: 0;
+	}
+	footer .list-socials {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+		top: 40px;
+	}
+	footer .list-socials a {
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+	}
+	footer .list-socials i {
+		font-size: 30px;
+		margin: 9px;
+
+	}
+	footer .row-cinza-claro {
+		height: 100px;
+	}
+}
+
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css);
+
+/*#region Organizational Chart*/
+.tree * {
+    margin: 0; padding: 0;
+}
+
+.tree ul {
+    padding-top: 20px; position: relative;
+
+    -transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li {
+    float: left; text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+
+    -transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+    content: '';
+    position: absolute; top: 0; right: 50%;
+    border-top: 2px solid #696969;
+    width: 50%; height: 20px;
+}
+.tree li::after{
+    right: auto; left: 50%;
+    border-left: 2px solid #696969;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+    border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+    border-right: 2px solid #696969;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 2px solid #696969;
+    width: 0; height: 20px;
+}
+
+.tree li a{
+    height: 100px;
+    width: 200px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #8b8b8b;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    display: inline-block;  
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+
+    -transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+    background: #cbcbcb; color: #000;
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+    border-color:  #94a0b4;
+}
