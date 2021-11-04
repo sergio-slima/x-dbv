@@ -1,10 +1,3 @@
-<?php
-
-require_once 'inc/usuarios.php';
-session_start();
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -845,34 +838,5 @@ session_start();
 <!-- 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 	<script src="lib/slick/slick/slick.min.js"></script>
-	<script>
-		<?php
-		if(isset($_SESSION['id_usuario'])) { ?>
-			$(document).ready(function() { 
-				var lg = localStorage.getItem("modal");
-				if (!lg) {
-					$('#login-modal').modal('show'); 
-				}					
-			});
-		<?php } ?>
-
-		$('#login-modal').on('shown.bs.modal', function() {
-			localStorage.setItem("modal", false);
-		});
-
-		<?php
-		if(!isset($_SESSION['id_usuario'])) { ?>
-			$('#send').on("click", function(){
-				alert("Entre ou Cadastre-se para Acessar!");
-			});
-			$('#btn-especialidades').on("click", function(){
-				alert("Entre ou Cadastre-se para Acessar!");
-			});
-		<?php } ?>
-
-		$('#sair').on("click", function() {
-			localStorage.removeItem("modal");
-		});			
-	</script>
 </body>
 </html>
