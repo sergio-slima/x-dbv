@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/images/logo.svg" alt="RocketQ" height="100" width="100">  
+  <img src="/img/XDbv-logo.png" alt="RocketQ" height="100" width="100">  
   <p>X-Dbv</p>
 </h1>
 
